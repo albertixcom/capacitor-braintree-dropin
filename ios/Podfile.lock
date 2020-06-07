@@ -1,0 +1,73 @@
+PODS:
+  - Braintree (4.25.1):
+    - Braintree/Card (= 4.25.1)
+    - Braintree/Core (= 4.25.1)
+    - Braintree/PayPal (= 4.25.1)
+    - Braintree/UI (= 4.25.1)
+  - Braintree/Apple-Pay (4.25.1):
+    - Braintree/Core
+  - Braintree/Card (4.25.1):
+    - Braintree/Core
+  - Braintree/Core (4.25.1)
+  - Braintree/PaymentFlow (4.25.1):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.25.1):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.25.1):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.25.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.25.1)
+  - Braintree/UI (4.25.1):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.25.1):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Venmo (4.25.1):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - BraintreeDropIn (7.2.0):
+    - BraintreeDropIn/DropIn (= 7.2.0)
+  - BraintreeDropIn/DropIn (7.2.0):
+    - Braintree/Card (~> 4.23)
+    - Braintree/Core (~> 4.23)
+    - Braintree/PaymentFlow (~> 4.23)
+    - Braintree/PayPal (~> 4.23)
+    - Braintree/UnionPay (~> 4.23)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (7.2.0)
+  - Capacitor (1.1.1):
+    - CapacitorCordova (= 1.1.1)
+  - CapacitorCordova (1.1.1)
+
+DEPENDENCIES:
+  - Braintree
+  - Braintree/Apple-Pay
+  - Braintree/PayPal
+  - Braintree/Venmo
+  - BraintreeDropIn
+  - Capacitor
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Braintree
+    - BraintreeDropIn
+    - Capacitor
+    - CapacitorCordova
+
+SPEC CHECKSUMS:
+  Braintree: ad6016e96c67c15a2c34b7e1eec87004560df618
+  BraintreeDropIn: b63750373474f7ec336118cee40cf767d198a977
+  Capacitor: f245413edff86ebf3d18bf76cadaee4be58b4a04
+  CapacitorCordova: 25811fd90c0ea23ea135a42a217d1918873fa566
+
+PODFILE CHECKSUM: 63c3b6efa2f39a3e3102f1cedf8d2371aba5b72c
+
+COCOAPODS: 1.7.5
